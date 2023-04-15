@@ -364,6 +364,9 @@ public class Test {
 	}
 	public static void main(String[] args) {
 		//RookTest(),BishopTest(),QueenTest(),KnightTest()
-
+		RookTest();
+		BishopTest();
+		QueenTest();
+		KnightTest();
 	}
 }
