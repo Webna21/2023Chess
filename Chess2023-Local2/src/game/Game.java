@@ -86,7 +86,7 @@ public class Game {
 		PieceType pieceType = getBoard().getTile(m.getStart()).getPiece().getPieceType();
 		switch (pieceType) {
 		case PAWN:
-			return PawnVerification.PawnVerify(this,m);
+			return new PawnVerification(this,m).PawnVerify();
 		case KNIGHT:
 			return new KnightVerification(this,m).KnightVerify();
 		case BISHOP:
